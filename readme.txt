@@ -1,0 +1,1 @@
+This repository consists of source files for my YouTube video tutorials. There are Sketch and Kite Compositor Files as well as other GIF previews to make it easier for users to follow along my video tutorials. 
