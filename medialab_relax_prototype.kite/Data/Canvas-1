@@ -1,0 +1,2207 @@
+{
+  "uuid" : "005222C2-33C6-400A-B518-E6517C255F96",
+  "position" : "{0, 0}",
+  "className" : "JRShapeContainerLayer",
+  "expanded" : true,
+  "sublayers" : [
+    {
+      "uuid" : "D2FC9788-E72E-4485-92E5-FA66B8BED312",
+      "name" : "home",
+      "position" : "{-24, -19}",
+      "className" : "CALayer",
+      "shadowOffset" : "{0, 1}",
+      "expanded" : true,
+      "shadowColor" : {
+        "components" : {
+          "r" : 0,
+          "b" : 0,
+          "g" : 0,
+          "a" : 1
+        },
+        "colorSpace" : "kCGColorSpaceSRGB"
+      },
+      "sublayers" : [
+        {
+          "masksToBounds" : true,
+          "borderColor" : {
+            "components" : {
+              "r" : 1,
+              "b" : 1,
+              "g" : 1,
+              "a" : 0
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "name" : "Screen",
+          "uuid" : "06E07A91-3F3E-4BCA-A002-4251C5DF354B",
+          "position" : "{24, 19}",
+          "backgroundColor" : {
+            "components" : {
+              "r" : 1,
+              "b" : 1,
+              "g" : 1,
+              "a" : 0
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "className" : "CALayer",
+          "shadowOffset" : "{0, 1}",
+          "expanded" : true,
+          "shadowColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "sublayers" : [
+            {
+              "name" : "Video",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0.79525351524353027,
+                  "b" : 0.79525351524353027,
+                  "g" : 0.79525351524353027,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "lockAspectRatio" : true,
+              "uuid" : "156C44B3-0443-4C6C-9B2C-0F8A4FE16A68",
+              "position" : "{-569, -18}",
+              "loopMedia" : true,
+              "filters" : [
+                {
+                  "className" : "CIFilter",
+                  "enabled" : true,
+                  "inputRadius" : {
+                    "type" : "Double",
+                    "value" : 10
+                  },
+                  "name" : "Gaussian Blur",
+                  "filterName" : "CIGaussianBlur"
+                }
+              ],
+              "className" : "AVPlayerLayer",
+              "mediaAsset" : {
+                "className" : "MediaAsset",
+                "contentIdentifier" : "IMG_6757.m4v"
+              },
+              "shadowOffset" : "{0, 1}",
+              "borderWidth" : 1,
+              "locked" : true,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "actionsContainer" : {
+                "actions" : [
+                  {
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "className" : "JRPlayVideoActionResponse",
+                        "type" : "JRActionResponseTypePlayVideo",
+                        "uuid" : "177B1CD6-2422-45F2-80FD-D6C4CA121CAA"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "eventMask" : 288,
+                      "className" : "JRMouseEnteredActionEvent",
+                      "type" : "JRActionEventTypeMouseEntered",
+                      "uuid" : "1D101EF1-193A-415B-A3CC-C2464C400361"
+                    },
+                    "uuid" : "9221D0FD-D724-4CE1-81DC-5D9134BA8580"
+                  }
+                ]
+              },
+              "bounds" : "{{0, 0}, {1510, 849}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "name" : "Home Indicator",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "uuid" : "5DE1A545-DEC5-4147-9E9B-1B5121CDE3E8",
+              "position" : "{119, 798}",
+              "backgroundColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "className" : "CALayer",
+              "shadowOffset" : "{0, 1}",
+              "borderWidth" : 1,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "locked" : true,
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "cornerRadius" : 2.5,
+              "bounds" : "{{0, 0}, {134, 5}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "uuid" : "2B546FE3-F6ED-46AB-948D-6C6F312525E2",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "Status Bar",
+              "position" : "{0, 0}",
+              "className" : "CALayer",
+              "metadata" : {
+                "className" : "JRMetadataDictionary",
+                "entries" : [
+                  {
+                    "value" : {
+                      "type" : "String",
+                      "value" : "F1F12EC9-34E1-40ED-84CF-60B2639666A6"
+                    },
+                    "className" : "JRMetadataEntry",
+                    "key" : "sketchObjectID",
+                    "type" : 3
+                  }
+                ]
+              },
+              "locked" : true,
+              "sublayers" : [
+                {
+                  "uuid" : "D13EEB3C-C243-4246-984A-F8C5844FBB09",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "name" : "Battery",
+                  "position" : "{336, 17}",
+                  "className" : "CALayer",
+                  "metadata" : {
+                    "className" : "JRMetadataDictionary",
+                    "entries" : [
+                      {
+                        "value" : {
+                          "type" : "String",
+                          "value" : "A03AEBE8-2785-4684-93EA-FDB7A2D8202C"
+                        },
+                        "className" : "JRMetadataEntry",
+                        "key" : "sketchObjectID",
+                        "type" : 3
+                      }
+                    ]
+                  },
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "2C8B4F73-DC89-4CE8-A17D-A8104DF3CE3C",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Border",
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "position" : "{0, 0.33333333333337117}",
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "5C641CF8-F365-4C13-B1F4-293AF764CF8D"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M2.667,0.000 L19.333,0.000 L19.333,0.000 C20.806,0.000 22.000,1.194 22.000,2.667 L22.000,8.667 L22.000,8.667 C22.000,10.139 20.806,11.333 19.333,11.333 L2.667,11.333 L2.667,11.333 C1.194,11.333 0.000,10.139 0.000,8.667 L0.000,2.667 L0.000,2.667 C0.000,1.194 1.194,0.000 2.667,0.000 Z M2.667,0.000",
+                      "opacity" : 0.34999999403953552,
+                      "fillRule" : "even-odd",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "duration" : 3600,
+                      "anchorPoint" : "{0, 0}",
+                      "contentsScale" : 2,
+                      "bounds" : "{{0, 0}, {21.999999999999989, 11.33333333333333}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "FA2D9D98-D69E-4DD0-B717-DA8DEF334475",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Cap",
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "position" : "{23, 4}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "2ED648AF-CC19-4089-9F72-34B15305E3EF"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M0.000,0.000 L0.000,4.000 C0.805,3.661 1.328,2.873 1.328,2.000 C1.328,1.127 0.805,0.339 0.000,0.000",
+                      "opacity" : 0.40000000596046448,
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "duration" : 3600,
+                      "anchorPoint" : "{0, 0}",
+                      "contentsScale" : 2,
+                      "bounds" : "{{0, 0}, {1.3280380056083521, 4}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "4AEEC10F-5A7B-4897-8028-68531F8C3F0E",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Capacity",
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "position" : "{2, 2.3333333333333708}",
+                      "lineWidth" : 0,
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "0AEC86D8-BFC8-452B-B1B5-318C2BDC47C1"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "className" : "CAShapeLayer",
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M1.333,0.000 L16.667,0.000 L16.667,0.000 C17.403,0.000 18.000,0.597 18.000,1.333 L18.000,6.000 L18.000,6.000 C18.000,6.736 17.403,7.333 16.667,7.333 L1.333,7.333 L1.333,7.333 C0.597,7.333 0.000,6.736 0.000,6.000 L0.000,1.333 L0.000,1.333 C0.000,0.597 0.597,0.000 1.333,0.000 Z M1.333,0.000",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "contentsScale" : 2,
+                      "duration" : 3600,
+                      "bounds" : "{{0, 0}, {17.999999999999989, 7.3333333333333321}}",
+                      "contentsGravity" : "center"
+                    }
+                  ],
+                  "anchorPoint" : "{0, 0}",
+                  "contentsScale" : 2,
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {25, 12}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "uuid" : "3C48E8EC-C702-43F6-A3F2-1684611EBE7F",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "name" : "WiFi",
+                  "fillColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "position" : "{315.69372749764989, 17.330672704032509}",
+                  "lineWidth" : 0,
+                  "metadata" : {
+                    "className" : "JRMetadataDictionary",
+                    "entries" : [
+                      {
+                        "value" : {
+                          "type" : "String",
+                          "value" : "383007F0-5433-433C-A4C7-8B6D88BD052F"
+                        },
+                        "className" : "JRMetadataEntry",
+                        "key" : "sketchObjectID",
+                        "type" : 3
+                      }
+                    ]
+                  },
+                  "className" : "CAShapeLayer",
+                  "strokeColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "path" : "M7.637,2.277 C9.852,2.277 11.984,3.129 13.590,4.656 C13.711,4.774 13.904,4.772 14.023,4.652 L15.179,3.486 C15.239,3.425 15.273,3.343 15.272,3.257 C15.272,3.172 15.237,3.090 15.176,3.030 C10.961,-1.010 4.311,-1.010 0.096,3.030 C0.035,3.090 0.001,3.171 0.000,3.257 C-0.001,3.343 0.033,3.425 0.093,3.486 L1.250,4.652 C1.369,4.772 1.562,4.774 1.683,4.656 C3.289,3.129 5.420,2.277 7.637,2.277 L7.637,2.277 Z M7.637,6.073 C8.854,6.073 10.028,6.525 10.931,7.343 C11.053,7.459 11.245,7.456 11.364,7.337 L12.519,6.170 C12.579,6.109 12.613,6.026 12.612,5.940 C12.611,5.854 12.576,5.771 12.514,5.711 C9.766,3.155 5.510,3.155 2.762,5.711 C2.700,5.771 2.664,5.854 2.663,5.940 C2.662,6.026 2.696,6.109 2.757,6.170 L3.912,7.337 C4.031,7.456 4.223,7.459 4.345,7.343 C5.247,6.526 6.420,6.073 7.637,6.073 L7.637,6.073 Z M9.856,8.857 C9.917,8.797 9.951,8.713 9.950,8.627 C9.948,8.540 9.910,8.458 9.846,8.400 C8.571,7.321 6.703,7.321 5.427,8.400 C5.363,8.458 5.325,8.540 5.323,8.627 C5.322,8.713 5.356,8.797 5.417,8.857 L7.415,10.873 C7.473,10.932 7.553,10.966 7.637,10.966 C7.720,10.966 7.800,10.932 7.858,10.873 L9.856,8.857 Z M9.856,8.857",
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "anchorPoint" : "{0, 0}",
+                  "contentsScale" : 2,
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {15.27237626493792, 10.96557160629883}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "uuid" : "E9D6D185-48E3-4A90-8837-8E0494F44F3E",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "name" : "Cellular Connection",
+                  "fillColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "position" : "{293.66666666666612, 17.666666666666629}",
+                  "lineWidth" : 0,
+                  "metadata" : {
+                    "className" : "JRMetadataDictionary",
+                    "entries" : [
+                      {
+                        "value" : {
+                          "type" : "String",
+                          "value" : "43E00B4E-77D5-43BC-B91C-434AD2E0F707"
+                        },
+                        "className" : "JRMetadataEntry",
+                        "key" : "sketchObjectID",
+                        "type" : 3
+                      }
+                    ]
+                  },
+                  "className" : "CAShapeLayer",
+                  "strokeColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "path" : "M1.000,6.667 L2.000,6.667 C2.552,6.667 3.000,7.114 3.000,7.667 L3.000,9.667 C3.000,10.219 2.552,10.667 2.000,10.667 L1.000,10.667 C0.448,10.667 0.000,10.219 0.000,9.667 L0.000,7.667 C0.000,7.114 0.448,6.667 1.000,6.667 L1.000,6.667 Z M5.667,4.667 L6.667,4.667 C7.219,4.667 7.667,5.114 7.667,5.667 L7.667,9.667 C7.667,10.219 7.219,10.667 6.667,10.667 L5.667,10.667 C5.114,10.667 4.667,10.219 4.667,9.667 L4.667,5.667 C4.667,5.114 5.114,4.667 5.667,4.667 Z M10.333,2.333 L11.333,2.333 C11.886,2.333 12.333,2.781 12.333,3.333 L12.333,9.667 C12.333,10.219 11.886,10.667 11.333,10.667 L10.333,10.667 C9.781,10.667 9.333,10.219 9.333,9.667 L9.333,3.333 C9.333,2.781 9.781,2.333 10.333,2.333 Z M15.000,0.000 L16.000,0.000 C16.552,0.000 17.000,0.448 17.000,1.000 L17.000,9.667 C17.000,10.219 16.552,10.667 16.000,10.667 L15.000,10.667 C14.448,10.667 14.000,10.219 14.000,9.667 L14.000,1.000 C14.000,0.448 14.448,0.000 15.000,0.000 L15.000,0.000 Z M15.000,0.000",
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "anchorPoint" : "{0, 0}",
+                  "contentsScale" : 2,
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {17, 10.66666666666667}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "position" : "{21, 15}",
+                  "metadata" : {
+                    "className" : "JRMetadataDictionary",
+                    "entries" : [
+                      {
+                        "value" : {
+                          "type" : "String",
+                          "value" : "43FE0641-4C36-4919-B78E-4410B4C9E006"
+                        },
+                        "className" : "JRMetadataEntry",
+                        "key" : "sketchObjectID",
+                        "type" : 3
+                      }
+                    ]
+                  },
+                  "magnificationFilter" : "nearest",
+                  "contentsScale" : 2,
+                  "duration" : 3600,
+                  "automaticallyAdjustsContentsScale" : true,
+                  "contentsGravity" : "center",
+                  "uuid" : "13A9E3A3-DBBC-46A2-83E5-0947B27AB6E8",
+                  "minificationFilter" : "nearest",
+                  "name" : "Time",
+                  "alignmentMode" : "center",
+                  "bounds" : "{{0, 0}, {54, 16}}",
+                  "font" : {
+                    "pointSize" : 14,
+                    "fontName" : ".SFNSText-Semibold"
+                  },
+                  "fontSize" : 14,
+                  "className" : "CATextLayer",
+                  "anchorPoint" : "{0, 0}",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "needsDisplayOnBoundsChange" : true,
+                  "string" : {
+                    "type" : "String",
+                    "value" : "9:41"
+                  },
+                  "foregroundColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  }
+                }
+              ],
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "anchorPoint" : "{0, 0}",
+              "contentsScale" : 2,
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {375, 44}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "position" : "{186, 495.5}",
+              "magnificationFilter" : "nearest",
+              "wrapped" : true,
+              "automaticallyAdjustsContentsScale" : true,
+              "duration" : 3600,
+              "contentsGravity" : "center",
+              "fillMode" : "forwards",
+              "uuid" : "9E9EAF34-4392-4720-80F5-7827CBD0EF24",
+              "name" : "headline",
+              "alignmentMode" : "center",
+              "bounds" : "{{0, 0}, {246, 83}}",
+              "font" : {
+                "pointSize" : 22,
+                "fontName" : ".SFNSDisplay"
+              },
+              "fontSize" : 22,
+              "className" : "CATextLayer",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0.79525351524353027,
+                  "b" : 0.79525351524353027,
+                  "g" : 0.79525351524353027,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "needsDisplayOnBoundsChange" : true,
+              "string" : {
+                "type" : "String",
+                "value" : "Start relaxing with nature sounds"
+              },
+              "foregroundColor" : {
+                "components" : {
+                  "r" : 0.99999600649999998,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "shadowOffset" : "{0, 1}"
+            },
+            {
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "position" : "{84, 71}",
+              "magnificationFilter" : "nearest",
+              "wrapped" : true,
+              "automaticallyAdjustsContentsScale" : true,
+              "duration" : 3600,
+              "contentsGravity" : "center",
+              "fillMode" : "forwards",
+              "uuid" : "AC2919D5-E835-4DB0-A5F9-112930A3C7C8",
+              "name" : "Relax",
+              "alignmentMode" : "center",
+              "bounds" : "{{0, 0}, {203, 83}}",
+              "font" : {
+                "pointSize" : 32,
+                "fontName" : ".SFNSDisplay"
+              },
+              "fontSize" : 32,
+              "className" : "CATextLayer",
+              "anchorPoint" : "{0, 0}",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0.79525351524353027,
+                  "b" : 0.79525351524353027,
+                  "g" : 0.79525351524353027,
+                  "a" : 0
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "needsDisplayOnBoundsChange" : true,
+              "string" : {
+                "type" : "String",
+                "value" : "RELAX"
+              },
+              "foregroundColor" : {
+                "components" : {
+                  "r" : 0.99999600649999998,
+                  "b" : 1,
+                  "g" : 1,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "shadowOffset" : "{0, 1}"
+            },
+            {
+              "uuid" : "D5813A70-E581-41BE-8591-A7AE6EF2E76B",
+              "name" : "indicators",
+              "position" : "{164, 709}",
+              "className" : "CALayer",
+              "shadowOffset" : "{0, 1}",
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "contentsGravity" : "center",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0.84000000000000008,
+                      "b" : 0.15959999999999988,
+                      "g" : 0.23933437500000002,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "uuid" : "24850399-00BE-47A2-B82A-551D51B89896",
+                  "position" : "{40, 4}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.99999600649999998,
+                      "b" : 1,
+                      "g" : 1,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "className" : "CALayer",
+                  "opacity" : 0.5,
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "fillMode" : "forwards",
+                  "duration" : 3600,
+                  "cornerRadius" : 4,
+                  "name" : "right",
+                  "bounds" : "{{0, 0}, {8, 8}}"
+                },
+                {
+                  "contentsGravity" : "center",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0.84000000000000008,
+                      "b" : 0.15959999999999988,
+                      "g" : 0.23933437500000002,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "uuid" : "2A82B778-E57F-457E-A96A-C605B04E42B7",
+                  "position" : "{22, 4}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.99999600649999998,
+                      "b" : 1,
+                      "g" : 1,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "className" : "CALayer",
+                  "opacity" : 0.5,
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "fillMode" : "forwards",
+                  "duration" : 3600,
+                  "cornerRadius" : 4,
+                  "name" : "middle",
+                  "bounds" : "{{0, 0}, {8, 8}}"
+                },
+                {
+                  "uuid" : "F4E44A46-D10A-48CC-8DDA-06F6925522ED",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0.84000000000000008,
+                      "b" : 0.15959999999999988,
+                      "g" : 0.23933437500000002,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "name" : "left",
+                  "position" : "{4, 4}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.99999600649999998,
+                      "b" : 1,
+                      "g" : 1,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "fillMode" : "forwards",
+                  "duration" : 3600,
+                  "cornerRadius" : 4,
+                  "bounds" : "{{0, 0}, {8, 8}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {44, 8}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "uuid" : "9DFBBBEF-8F28-4672-BBBB-856B10F9B4B3",
+              "name" : "btn_next",
+              "position" : "{129, 737}",
+              "className" : "CALayer",
+              "shadowOffset" : "{0, 1}",
+              "expanded" : true,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "uuid" : "8EBB74C3-8528-491A-BE29-1447AFA5851B",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0.99999600649999998,
+                      "b" : 1,
+                      "g" : 1,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "name" : "btn",
+                  "position" : "{56.5, 22}",
+                  "backgroundColor" : {
+                    "components" : {
+                      "r" : 0.04619999999999997,
+                      "b" : 0.2715796875,
+                      "g" : 0.66000000000000003,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceGenericRGB"
+                  },
+                  "className" : "CALayer",
+                  "shadowOffset" : "{0, 1}",
+                  "borderWidth" : 1,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "fillMode" : "forwards",
+                  "duration" : 3600,
+                  "cornerRadius" : 22,
+                  "bounds" : "{{0, 0}, {113, 44}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "position" : "{8, 12}",
+                  "magnificationFilter" : "nearest",
+                  "wrapped" : true,
+                  "automaticallyAdjustsContentsScale" : true,
+                  "duration" : 3600,
+                  "contentsGravity" : "center",
+                  "fillMode" : "forwards",
+                  "uuid" : "F119AF9E-F0E3-4C8C-BF4D-C0D9D578B84F",
+                  "name" : "next",
+                  "alignmentMode" : "center",
+                  "bounds" : "{{0, 0}, {96, 32}}",
+                  "font" : {
+                    "pointSize" : 18,
+                    "fontName" : ".SFNSDisplay"
+                  },
+                  "fontSize" : 18,
+                  "className" : "CATextLayer",
+                  "anchorPoint" : "{0, 0}",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0.79525351524353027,
+                      "b" : 0.79525351524353027,
+                      "g" : 0.79525351524353027,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "needsDisplayOnBoundsChange" : true,
+                  "string" : {
+                    "type" : "String",
+                    "value" : "Next"
+                  },
+                  "foregroundColor" : {
+                    "components" : {
+                      "r" : 0.99999600649999998,
+                      "b" : 1,
+                      "g" : 1,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "shadowOffset" : "{0, 1}"
+                }
+              ],
+              "fillMode" : "forwards",
+              "anchorPoint" : "{0, 0}",
+              "duration" : 3600,
+              "actionsContainer" : {
+                "actions" : [
+                  {
+                    "className" : "JRAction",
+                    "actionResponses" : [
+                      {
+                        "transition" : {
+                          "speed" : 0.5,
+                          "className" : "CATransition",
+                          "fillMode" : "forwards",
+                          "uuid" : "66695C18-225E-469A-A089-898614F50CCE",
+                          "duration" : 0.5,
+                          "subtype" : "fromRight",
+                          "timingFunction" : {
+                            "c2x" : 0.57999998331069946,
+                            "localizedName" : "Ease-In Ease-Out",
+                            "c2y" : 1,
+                            "className" : "CAMediaTimingFunction",
+                            "c1x" : 0.41999998688697815,
+                            "c1y" : 0
+                          },
+                          "type" : "suckEffect",
+                          "removedOnCompletion" : false
+                        },
+                        "className" : "TransitionToPageActionResponse",
+                        "type" : "JRActionResponseTypeTransitionToPage",
+                        "canvasID" : "7290B496-0E5E-4F73-B181-B0090864BF04",
+                        "uuid" : "4C67774D-5318-47A9-8D86-049FC5C10018"
+                      }
+                    ],
+                    "actionEvent" : {
+                      "clickCount" : 0,
+                      "eventMask" : 6,
+                      "className" : "JRMouseClickedActionEvent",
+                      "type" : "JRActionEventTypeMouseClicked",
+                      "uuid" : "DF3A68B8-33E8-4131-B1C1-0B3C087A0A06"
+                    },
+                    "uuid" : "4D167CFA-2357-42A2-AB57-AA524830DBF0"
+                  }
+                ]
+              },
+              "bounds" : "{{0, 0}, {113, 44}}",
+              "contentsGravity" : "center"
+            },
+            {
+              "uuid" : "EB31D635-9277-40AC-945E-B48F648C1740",
+              "borderColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "name" : "relaxing",
+              "position" : "{185, 243.5}",
+              "className" : "CALayer",
+              "metadata" : {
+                "className" : "JRMetadataDictionary",
+                "entries" : [
+                  {
+                    "value" : {
+                      "type" : "String",
+                      "value" : "283C2768-9C58-48FE-B7C9-B704204AFAA1"
+                    },
+                    "className" : "JRMetadataEntry",
+                    "key" : "sketchObjectID",
+                    "type" : 3
+                  }
+                ]
+              },
+              "expanded" : true,
+              "shadowColor" : {
+                "components" : {
+                  "r" : 0,
+                  "b" : 0,
+                  "g" : 0,
+                  "a" : 1
+                },
+                "colorSpace" : "kCGColorSpaceSRGB"
+              },
+              "sublayers" : [
+                {
+                  "uuid" : "A65E6558-C7B8-447F-B0E8-98D0D0884251",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "name" : "person_mat",
+                  "animationsContainer" : {
+                    "expanded" : true,
+                    "animations" : [
+                      {
+                        "uuid" : "BC79951A-A880-40E3-BFDD-5DE47EC5A98F",
+                        "repeatCount" : 50,
+                        "removedOnCompletion" : false,
+                        "className" : "CAKeyframeAnimation",
+                        "timingFunction" : {
+                          "c2x" : 0.57999998331069946,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.41999998688697815,
+                          "c1y" : 0
+                        },
+                        "path" : "M57.000,27.000 L57.000,20.000",
+                        "values" : [
+                          {
+                            "type" : "CGPoint",
+                            "value" : "{0, 0}"
+                          },
+                          {
+                            "type" : "CGPoint",
+                            "value" : "{400, 400}"
+                          }
+                        ],
+                        "autoreverses" : true,
+                        "keyPath" : "position",
+                        "fillMode" : "both",
+                        "duration" : 2,
+                        "beginTime" : 0.32887167850130938
+                      }
+                    ]
+                  },
+                  "position" : "{54.899999999999999, 27.70454545454546}",
+                  "metadata" : {
+                    "className" : "JRMetadataDictionary",
+                    "entries" : [
+                      {
+                        "value" : {
+                          "type" : "String",
+                          "value" : "B74D9E9A-0D75-47CB-A3C0-85DD998E2AE4"
+                        },
+                        "className" : "JRMetadataEntry",
+                        "key" : "sketchObjectID",
+                        "type" : 3
+                      }
+                    ]
+                  },
+                  "className" : "CALayer",
+                  "expanded" : true,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "05ABCB3B-CE75-4081-B6F7-24692CD706CE",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "mat",
+                      "position" : "{0, 4.8181818181818192}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "151971E1-F48F-4A06-9686-C0159BBB8B36"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M0.000,0.818 C17.600,18.485 33.800,27.318 48.600,27.318 C63.400,27.318 80.600,18.485 100.200,0.818 C78.600,8.045 61.900,11.659 50.100,11.659 C38.300,11.659 21.600,8.045 0.000,0.818 Z M0.000,0.818",
+                      "fillRule" : "even-odd",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "bounds" : "{{0, 0}, {100.2, 26.500000000000007}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "98063440-460F-4CD0-BFFE-D9AB144382B1",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "head",
+                      "position" : "{66.599999999999994, 0}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "5E5B1339-DCB2-4E5B-AC42-AE599510F885"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M8.400,16.864 C13.039,16.864 16.800,13.089 16.800,8.432 C16.800,3.775 13.039,0.000 8.400,0.000 C3.761,0.000 0.000,3.775 0.000,8.432 C0.000,13.089 3.761,16.864 8.400,16.864 Z M8.400,16.864",
+                      "fillRule" : "even-odd",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "bounds" : "{{0, 0}, {16.800000000000001, 16.86363636363637}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "3E0D08BD-7632-4E11-98AC-526B707779F2",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "leg",
+                      "position" : "{24, 1.8068181818181823}",
+                      "lineWidth" : 9.6000003814697266,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "F41D1963-29B5-48AB-9E42-909874E12C2E"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M0.000,11.443 L9.600,0.000 L22.800,15.057",
+                      "lineCap" : "round",
+                      "fillRule" : "even-odd",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "lineJoin" : "round",
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "bounds" : "{{0, 0}, {22.800000000000001, 15.056818181818189}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "3E3A22E1-9D70-4571-96F6-E8288B80278A",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "body",
+                      "position" : "{36.072656250000001, 7.7801402698863651}",
+                      "lineWidth" : 0,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "9E33B3BA-513D-4ED8-8C32-8F333AF99B89"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M6.000,0.000 L26.400,0.000 C29.714,-0.000 32.400,2.686 32.400,6.000 L32.400,7.852 C32.400,11.166 29.714,13.852 26.400,13.852 L6.000,13.852 C2.686,13.852 0.000,11.166 0.000,7.852 L0.000,6.000 C-0.000,2.686 2.686,0.000 6.000,0.000 Z M6.000,0.000",
+                      "fillRule" : "even-odd",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "bounds" : "{{0, 0}, {32.399999999999999, 13.852272727272732}}",
+                      "contentsGravity" : "center"
+                    }
+                  ],
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {100.2, 31.318181818181827}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "uuid" : "DFD3178A-5365-4A3B-9050-7830817C5C1F",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "name" : "stand",
+                  "position" : "{55.5, 25.897727272727277}",
+                  "className" : "CALayer",
+                  "metadata" : {
+                    "className" : "JRMetadataDictionary",
+                    "entries" : [
+                      {
+                        "value" : {
+                          "type" : "String",
+                          "value" : "0DBBC649-B39B-46BC-B4A5-8E0F209B07B1"
+                        },
+                        "className" : "JRMetadataEntry",
+                        "key" : "sketchObjectID",
+                        "type" : 3
+                      }
+                    ]
+                  },
+                  "expanded" : true,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "82DAD6DC-2BFF-48A7-86E5-5FCF9A905C16",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Path 3",
+                      "position" : "{2.4000000000000004, 25.897727272727277}",
+                      "lineWidth" : 3.5999999046325684,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "4D5FEE7D-6FFB-447C-AD77-0AAEB0802545"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M2.000,2.000 L6.800,53.795",
+                      "lineCap" : "round",
+                      "fillRule" : "even-odd",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "lineJoin" : "round",
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "duration" : 3600,
+                      "bounds" : "{{0, 0}, {4.7999999999999998, 51.795454545454554}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "0FFD7721-3C13-4285-B665-C5B38250633C",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Path 3",
+                      "position" : "{97.099999999999994, 25.295454545454547}",
+                      "lineWidth" : 3.5999999046325684,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "B7A67B8D-2DA5-44BF-8521-FDAB7A551D56"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M7.800,2.000 L2.400,52.591",
+                      "lineCap" : "round",
+                      "fillRule" : "even-odd",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "lineJoin" : "round",
+                      "duration" : 3600,
+                      "beginTime" : -0.1640625,
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "bounds" : "{{0, 0}, {5.3999999999999995, 50.590909090909093}}",
+                      "contentsGravity" : "center"
+                    }
+                  ],
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {103.8, 51.795454545454554}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "uuid" : "325C69F6-9071-4FDC-92DE-98B514577224",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "name" : "floor",
+                  "position" : "{0, 51.795454545454554}",
+                  "lineWidth" : 3,
+                  "className" : "CAShapeLayer",
+                  "metadata" : {
+                    "className" : "JRMetadataDictionary",
+                    "entries" : [
+                      {
+                        "value" : {
+                          "type" : "String",
+                          "value" : "C2EA51EF-0411-4050-AF9E-64B81B79F987"
+                        },
+                        "className" : "JRMetadataEntry",
+                        "key" : "sketchObjectID",
+                        "type" : 3
+                      }
+                    ]
+                  },
+                  "strokeColor" : {
+                    "components" : {
+                      "r" : 1,
+                      "b" : 1,
+                      "g" : 1,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "path" : "M2.000,2.398 L110.000,2.398",
+                  "lineCap" : "round",
+                  "fillRule" : "even-odd",
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "lineJoin" : "round",
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "fillColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 0
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "bounds" : "{{0, 0}, {108, 1.2045454545454533}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "uuid" : "D7922907-C5CC-4E69-AAC7-4EB8B459ECC8",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "name" : "trees",
+                  "position" : "{27.599999999999998, 37.94318181818182}",
+                  "className" : "CALayer",
+                  "metadata" : {
+                    "className" : "JRMetadataDictionary",
+                    "entries" : [
+                      {
+                        "value" : {
+                          "type" : "String",
+                          "value" : "17CB0964-8264-42FA-9BE6-020C00B4CFD8"
+                        },
+                        "className" : "JRMetadataEntry",
+                        "key" : "sketchObjectID",
+                        "type" : 3
+                      }
+                    ]
+                  },
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "91DC8C69-21B3-459D-8AD7-3020793DCDD7",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Path 5",
+                      "position" : "{-2.5999999999999996, 5.4204545454545459}",
+                      "lineWidth" : 3,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "E1AA3CA9-0204-46C8-A539-5A1C6B43F5B9"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M3.000,2.420 L3.000,9.648",
+                      "lineCap" : "round",
+                      "fillRule" : "even-odd",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "lineJoin" : "round",
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "bounds" : "{{0, 0}, {1.2, 7.2272727272727257}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "1C76D722-11EC-4669-9A8A-B26A7682D027",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Path 5 Copy",
+                      "position" : "{-12, 0}",
+                      "lineWidth" : 3,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "45F6A03D-04BB-4D1C-BCB0-52ED1A4500FB"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M2.600,2.301 L2.600,14.648",
+                      "lineCap" : "round",
+                      "fillRule" : "even-odd",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "lineJoin" : "round",
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "bounds" : "{{0, 0}, {1.2, 12.647727272727273}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "6EEFC114-CE15-4242-A005-F62727149A6B",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Path 5 Copy 2",
+                      "position" : "{61, 0}",
+                      "lineWidth" : 3,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "07E1307E-D37B-476D-9207-D39DED04EA40"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M2.600,2.301 L2.600,14.648",
+                      "lineCap" : "round",
+                      "fillRule" : "even-odd",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "lineJoin" : "round",
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "bounds" : "{{0, 0}, {1.2, 12.647727272727273}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "2ECBC28C-8312-4FFF-BAEE-4E78D5910358",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Path 5 Copy 3",
+                      "position" : "{52.399999999999999, 3.6136363636363638}",
+                      "lineWidth" : 3,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "13D1494F-FBEC-428A-AF8C-F2A8C1F525D3"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 1,
+                          "g" : 1,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M3.000,1.915 L3.000,10.648",
+                      "lineCap" : "round",
+                      "fillRule" : "even-odd",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "lineJoin" : "round",
+                      "anchorPoint" : "{0, 0}",
+                      "duration" : 3600,
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "bounds" : "{{0, 0}, {1.2, 9.0340909090909101}}",
+                      "contentsGravity" : "center"
+                    }
+                  ],
+                  "anchorPoint" : "{0, 0}",
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {67.200000000000003, 12.647727272727273}}",
+                  "contentsGravity" : "center"
+                },
+                {
+                  "uuid" : "5E6B48B6-F8D2-4F59-AFCA-F02F098299D5",
+                  "borderColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "name" : "sun",
+                  "animationsContainer" : {
+                    "expanded" : true,
+                    "animations" : [
+                      {
+                        "speed" : 0.10000000149011612,
+                        "beginTime" : 9.9999999999999995e-07,
+                        "className" : "CABasicAnimation",
+                        "keyPath" : "transform.rotation.z",
+                        "repeatCount" : 50,
+                        "uuid" : "F590F8CB-87A7-4A31-8FB2-5FFB7CBEE1D6",
+                        "duration" : 0.5,
+                        "fillMode" : "both",
+                        "timingFunction" : {
+                          "c2x" : 0.57999998331069946,
+                          "localizedName" : "Ease-In Ease-Out",
+                          "c2y" : 1,
+                          "className" : "CAMediaTimingFunction",
+                          "c1x" : 0.41999998688697815,
+                          "c1y" : 0
+                        },
+                        "toValue" : {
+                          "type" : "Double",
+                          "value" : 5
+                        },
+                        "removedOnCompletion" : false
+                      }
+                    ]
+                  },
+                  "position" : "{22, -55}",
+                  "metadata" : {
+                    "className" : "JRMetadataDictionary",
+                    "entries" : [
+                      {
+                        "value" : {
+                          "type" : "String",
+                          "value" : "915B9842-7DE6-429C-91E9-82E4CBFB85D0"
+                        },
+                        "className" : "JRMetadataEntry",
+                        "key" : "sketchObjectID",
+                        "type" : 3
+                      }
+                    ]
+                  },
+                  "className" : "CALayer",
+                  "expanded" : true,
+                  "shadowColor" : {
+                    "components" : {
+                      "r" : 0,
+                      "b" : 0,
+                      "g" : 0,
+                      "a" : 1
+                    },
+                    "colorSpace" : "kCGColorSpaceSRGB"
+                  },
+                  "sublayers" : [
+                    {
+                      "uuid" : "FAF71837-9894-49C0-BABF-1A1D5ACD1E6D",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "name" : "Path 6",
+                      "position" : "{11.000000000000005, 11.000000000000005}",
+                      "lineWidth" : 1.0499999523162842,
+                      "className" : "CAShapeLayer",
+                      "metadata" : {
+                        "className" : "JRMetadataDictionary",
+                        "entries" : [
+                          {
+                            "value" : {
+                              "type" : "String",
+                              "value" : "67AE3DC9-3334-4DDE-AD5E-2E6B9A9EA52F"
+                            },
+                            "className" : "JRMetadataEntry",
+                            "key" : "sketchObjectID",
+                            "type" : 3
+                          }
+                        ]
+                      },
+                      "strokeColor" : {
+                        "components" : {
+                          "r" : 0.96171098947525024,
+                          "b" : 0.1385422945022583,
+                          "g" : 0.65036731958389282,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "path" : "M12.000,1.000 L12.000,4.904 M19.678,4.222 L16.917,6.983 M22.859,12.000 L18.954,12.000 M19.678,19.778 L16.917,17.017 M12.000,23.000 L12.000,19.096 M4.322,19.778 L7.083,17.017 M1.141,12.000 L5.046,12.000 M4.322,4.222 L7.083,6.983",
+                      "lineCap" : "round",
+                      "fillRule" : "even-odd",
+                      "locked" : true,
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "lineJoin" : "round",
+                      "duration" : 3600,
+                      "fillColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "bounds" : "{{0, 0}, {21.656250000000011, 22.000000000000011}}",
+                      "contentsGravity" : "center"
+                    },
+                    {
+                      "uuid" : "A9681341-96F7-4BEF-B6CF-732AF7C1F89F",
+                      "borderColor" : {
+                        "components" : {
+                          "r" : 0.76000000000000001,
+                          "b" : 0.53532499999999994,
+                          "g" : 0.10640000000000001,
+                          "a" : 0
+                        },
+                        "colorSpace" : "kCGColorSpaceGenericRGB"
+                      },
+                      "name" : "Layer",
+                      "position" : "{13.201510734789508, 11.391599903736704}",
+                      "backgroundColor" : {
+                        "components" : {
+                          "r" : 1,
+                          "b" : 0,
+                          "g" : 0.57810515169999999,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "className" : "CALayer",
+                      "shadowOffset" : "{0, 1}",
+                      "shadowColor" : {
+                        "components" : {
+                          "r" : 0,
+                          "b" : 0,
+                          "g" : 0,
+                          "a" : 1
+                        },
+                        "colorSpace" : "kCGColorSpaceSRGB"
+                      },
+                      "fillMode" : "forwards",
+                      "duration" : 3600,
+                      "cornerRadius" : 5,
+                      "bounds" : "{{0, 0}, {10, 10}}",
+                      "contentsGravity" : "center"
+                    }
+                  ],
+                  "duration" : 3600,
+                  "bounds" : "{{0, 0}, {22, 22}}",
+                  "contentsGravity" : "center"
+                }
+              ],
+              "duration" : 3600,
+              "bounds" : "{{0, 0}, {108, 53}}",
+              "contentsGravity" : "center"
+            }
+          ],
+          "locked" : true,
+          "anchorPoint" : "{0, 0}",
+          "duration" : 3600,
+          "fillMode" : "forwards",
+          "bounds" : "{{0, 0}, {375, 812}}",
+          "contentsGravity" : "center"
+        },
+        {
+          "contentsGravity" : "resizeAspect",
+          "borderColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 0
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "name" : "iPhoneX",
+          "lockAspectRatio" : true,
+          "position" : "{0, 0}",
+          "uuid" : "0B3378E3-703F-4525-8D7D-4F2CDB7D7F7F",
+          "className" : "CALayer",
+          "magnificationFilter" : "nearest",
+          "shadowOffset" : "{0, 1}",
+          "expanded" : true,
+          "locked" : true,
+          "shadowColor" : {
+            "components" : {
+              "r" : 0,
+              "b" : 0,
+              "g" : 0,
+              "a" : 1
+            },
+            "colorSpace" : "kCGColorSpaceSRGB"
+          },
+          "fillMode" : "forwards",
+          "anchorPoint" : "{0, 0}",
+          "duration" : 3600,
+          "bounds" : "{{0, 0}, {423, 850}}",
+          "contentImage" : {
+            "className" : "JRContentImage",
+            "contentIdentifier" : "iPhoneX.tiff"
+          }
+        }
+      ],
+      "fillMode" : "forwards",
+      "anchorPoint" : "{0, 0}",
+      "duration" : 3600,
+      "bounds" : "{{0, 0}, {423, 850}}",
+      "contentsGravity" : "center"
+    }
+  ],
+  "fillMode" : "both",
+  "bounds" : "{{0, 0}, {375, 812}}",
+  "name" : "Background Layer"
+}

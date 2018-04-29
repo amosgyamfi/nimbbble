@@ -1,0 +1,48 @@
+{
+  "activeCanvasInfo" : 1,
+  "canvasInfos" : [
+    {
+      "presentationOptions" : {
+        "canvasScale" : 0,
+        "initialPlaybackDelay" : 0.5,
+        "cursor" : 2
+      },
+      "canvasSize" : "{375, 812}",
+      "timelineManager" : {
+        "pointsPerSecond" : 40
+      },
+      "canvasID" : 1,
+      "uuid" : "979172CC-92A1-4318-A988-2D88F40C1764"
+    },
+    {
+      "presentationOptions" : {
+        "canvasScale" : 0,
+        "initialPlaybackDelay" : 0.5,
+        "cursor" : 2
+      },
+      "canvasSize" : "{375, 812}",
+      "timelineManager" : {
+        "pointsPerSecond" : 200
+      },
+      "canvasID" : 2,
+      "uuid" : "7290B496-0E5E-4F73-B181-B0090864BF04"
+    },
+    {
+      "presentationOptions" : {
+        "canvasScale" : 0,
+        "initialPlaybackDelay" : 0.5,
+        "cursor" : 2
+      },
+      "canvasSize" : "{375, 812}",
+      "timelineManager" : {
+        "pointsPerSecond" : 200
+      },
+      "canvasID" : 3,
+      "uuid" : "62DB37C0-88A4-4C43-A1C9-310B54170A54"
+    }
+  ],
+  "createdWithVersion" : "34",
+  "lastSavedWithVersion" : "34",
+  "creationDate" : "2018-04-29T11:02:06+03:00",
+  "uuid" : "32B2E856-BD57-4328-BCD2-06C2AC38F1DA"
+}
