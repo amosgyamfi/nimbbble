@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Core Animation and Kite Compositor Tutorials](README.md)
 
