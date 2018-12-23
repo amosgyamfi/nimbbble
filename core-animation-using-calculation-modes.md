@@ -10,7 +10,7 @@ In Core Animation, keyframes animations have option effects known as calculation
 
 ![Creating linearly interpolated keyframes](.gitbook/assets/linear.gif)
 
-2. Discrete - jumps from one keyframe to another without easing or interpolation. 
+2. Discrete - jumps from one keyframe to another without easing or interpolation. Thus, the animation instantly changes from one image to the next rather than fading.
 
 ![Creating animation without keyframes interpolation.](.gitbook/assets/descrete.gif)
 
